@@ -1,0 +1,7 @@
+1. Add logic for calling of API through axios at the server side.
+    Added proper status code for success and failure.
+2. At the Client side.
+    Added the Stock form for form data
+    Added Stock table for display of the response fetched by API
+    Taken care of proper exception handling along with display of appropriate toast.
+    Added Nav bar with logo on the left.

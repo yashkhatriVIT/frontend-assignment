@@ -1,6 +1,13 @@
+import Navbar from "./componnets/Navbar/Navbar";
+import StockForm from "./componnets/StockForm/StockForm";
+
 function App() {
 	return (
-		<h1>Hello world</h1>
+		<>
+		<Navbar />
+		<StockForm />
+		</>
+		
 	);
 }
 
