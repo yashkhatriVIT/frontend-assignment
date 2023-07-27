@@ -71,5 +71,5 @@ app.post('/api/fetchStockData', (req, res) => {
     return regex.test(dateString);
   }
 
-const port = process.env.PORT || 5004;
+const port = process.env.PORT || 5000;
 app.listen(port, () => console.log(`Listening on port ${port}`));
